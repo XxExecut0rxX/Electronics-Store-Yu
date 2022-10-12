@@ -24,3 +24,22 @@ body {
     background-color: #1363DF;
 
 }
+
+.wave1 {
+    position: absolute;
+    transform: translate(-50%, -3em);
+}
+
+/* items section */
+
+.container-items {
+    padding: 3% 15% 7%;
+    background-color: white;
+}
+
+.img-feature {
+    height: 10rem;
+    width: 10rem;
+    border: solid 3px #1363DF;
+    border-radius: 30%;
+}
