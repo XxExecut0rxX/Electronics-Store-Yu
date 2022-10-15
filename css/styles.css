@@ -14,6 +14,12 @@ h6 {
 
 }
 
+p {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
 .nav-item {
     padding-right: 5%;
 }
@@ -38,8 +44,25 @@ h6 {
 }
 
 .container-heading h1 {
+    margin-top: 5%;
+    margin-bottom: 30px;
     text-align: start;
     font-size: 3.5rem;
+}
+
+.img-heading-container {
+    text-align: center;
+}
+
+.heading-img {
+    width: 35%;
+    position:absolute;
+    right: 14%;
+    top: 12%;
+}
+
+.heading-content {
+    padding-top: 5%;
 }
 
 .wave1 {
@@ -50,7 +73,7 @@ h6 {
 /* items section */
 
 .container-items {
-    padding: 3% 15% 7%;
+    padding: 7% 15% 7%;
     background-color: white;
 }
 
@@ -59,4 +82,50 @@ h6 {
     width: 10rem;
     border: solid 3px #1363DF;
     border-radius: 30%;
+}
+
+footer {
+    background-color: gray;
+}
+
+
+/***************** MEDIA QUERIES ********************/
+
+/* Extra large and avobe */
+
+@media (min-width: 1400px) {
+    .heading-img {
+            width: 30%;
+        }
+}
+
+/* mobile size and below */
+
+@media (max-width: 992px) {
+
+    /* heading section */
+
+    .heading-img {
+        position: static;
+        width: 100%;
+    }
+
+    .container-heading {
+        text-align: center;
+    }
+
+    .container-heading h1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .container-heading {
+        padding: 5% 15% 20%;
+        background-color: #1363DF;
+        color: white;
+    }
+
+    
 }
