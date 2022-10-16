@@ -4,14 +4,18 @@ body {
 }
 
 h1,
-h2,
+h2 {
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 h3,
 h4,
 h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-
+    font-weight: 400;
 }
 
 p {
@@ -96,7 +100,11 @@ footer {
 @media (min-width: 1400px) {
     .heading-img {
             width: 30%;
-        }
+    }
+
+    .container-heading h1 {
+        font-size: 4rem;
+    }
 }
 
 /* mobile size and below */
