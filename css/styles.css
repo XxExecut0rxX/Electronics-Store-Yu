@@ -139,6 +139,12 @@ footer {
     .container-heading h1 {
         font-size: 4rem;
     }
+
+    /* cards section */
+
+    .card {
+        width: 23rem;
+    }
 }
 
 /* tablet size and below */
@@ -169,5 +175,33 @@ footer {
         color: white;
     }
 
+    /* Features section */
     
+    .container-items {
+        padding: 15% 15% 20%;
+    }
+
+    .features-heading {
+        font-size: 2rem;
+    }
+
+    /* cards section */
+
+    .cards-heading {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 16rem;
+    }
+
+    /* catalog section */
+    .catalog-container {
+        text-align: center;
+        padding: 15% 15% 20%;
+    }
+
+    .catalog-heading {
+        font-size: 2rem;
+    }
 }
