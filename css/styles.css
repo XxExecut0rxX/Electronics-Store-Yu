@@ -103,7 +103,7 @@ p {
 
 .card {
     margin: auto;
-    width: 18rem;
+    width: 80%;
 }
 
 .card-title {
@@ -128,6 +128,7 @@ footer {
 
 .footer-container {
     padding: 7% 15% 7%;
+    background-color: #06283D;
 }
 
 .footer-title {
@@ -182,9 +183,9 @@ footer i:hover {
 
     /* cards section */
 
-    .card {
+    /* .card {
         width: 23rem;
-    }
+    } */
 }
 
 /* tablet size and below */
