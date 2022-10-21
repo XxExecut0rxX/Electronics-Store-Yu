@@ -103,11 +103,15 @@ p {
 
 .card {
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .card-title {
     font-weight: 500;
+}
+
+.card-img-top {
+    height: 11rem;
 }
 
 /* catalog section */
@@ -183,9 +187,14 @@ footer i:hover {
 
     /* cards section */
 
-    /* .card {
-        width: 23rem;
-    } */
+    .card {
+        margin: auto;
+        width: 80%;
+    }
+
+    .card-img-top {
+        height: 16rem;
+    }
 }
 
 /* tablet size and below */
