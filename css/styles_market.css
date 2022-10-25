@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+.display-none {
+    display: none;
+}
+
 /* heading section */
 
 .navbar {
