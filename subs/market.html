@@ -25,10 +25,10 @@
 <body>
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark mb-3 py-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#title">YU Tienda Virtual</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#title">OVA Tienda Virtual</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
         
@@ -59,7 +59,23 @@
 
         <section id="heading">
             <div class="container-fluid container-heading">
-                <h1>hello</h1>
+                <h1>Categorias</h1>
+                <div class="search-bar-container">
+                    <div class="row">
+                        <div class="col col-12 col-lg-4">
+                        </div>
+                        <div class="col col-8 col-lg-4">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+                            </form>
+                        </div>
+                        <div class="col col-4 text-end">
+                            <a class="btn btn-primary" href="#" role="button"><i class="fa-solid fa-cart-shopping"></i> <span class="sopping-cart-text">Carrito</span></a>
+                        </div>
+                    </div>
+                </div>
                 <hr>
             </div>
             
@@ -67,25 +83,46 @@
         
         <section id="categories">
 
-            <div class="container text-center">
+            <div class="container-fluid text-center categories-container">
                 <div class="row">
+                    <!-- categories part -->
+
                     <div class="col col-12 col-lg-3">
-                        
-                        <!-- categories laptop and pc -->
     
-                        <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                                The current link item
+                        <div class="list-group text-start">
+                            <a href="#" class="list-group-item list-group-item-action active disabled" aria-current="true">
+                                Categorias
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
-                            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
-                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                            <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+                            <a href="#" class="list-group-item list-group-item-action">Arduino</a>
+                            <a href="#" class="list-group-item list-group-item-action">Domótica</a>
+                            <a href="#" class="list-group-item list-group-item-action">Impresoras 3D</a>
+                            <a class="list-group-item list-group-item-action">Motores</a>
                         </div>
                     </div>
 
+                    <!-- cards part -->
+
                     <div class="col col-12 col-lg-9">
-                        Column
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col col-12 col-md-6 col-xl-4">
+                                    <div class="card">
+                                        <img src="../images/arduino.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Arduino Uno</h5>
+                                            <p class="card-text">50 Bs.</p>
+                                            <a href="#" class="btn btn-primary w-100"><i class="fa-solid fa-cart-plus"></i> <span>Añadir al carrito</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-md-6 col-xl-4">
+                                    Column
+                                </div>
+                                <div class="col col-12 col-md-6 col-xl-4">
+                                    Column
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

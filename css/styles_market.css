@@ -22,8 +22,17 @@ body {
     padding: 3% 15% 3%;
 }
 
+/* .search-bar-container {
+    width: 50%;
+    margin: auto;
+} */
+
 
 /* categories section */
+
+.categories-container {
+    padding: 3% 15% 3%;
+}
 
 
 /***************** MEDIA QUERIES ********************/
@@ -31,12 +40,23 @@ body {
 /* Extra large and avobe */
 
 @media (min-width: 1400px) {
-
+    /* .search-bar-container {
+        width: 40%;
+        margin: auto;
+    } */
 }
 
 /* tablet size and below */
 
 @media (max-width: 992px) {
+    .search-bar-container {
+        width: 100%;
+        margin: auto;
+    }
 
+    /* categories section */
 
+    .sopping-cart-text {
+        display: none;
+    }
 }
