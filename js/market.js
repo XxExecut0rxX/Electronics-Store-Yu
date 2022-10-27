@@ -5,10 +5,10 @@ $(document).ready(function ($) {
         var ww = document.body.clientWidth;
         if (ww >= 990) {
             $('#accordionCategories').removeClass('accordion');
-            // $('.accordion-header').addClass('display-none');
+            $('.accordion-collapse').addClass('show');
         } else {
             $('#accordionCategories').addClass('accordion');
-            // $('.accordion-header').removeClass('display-none');
+            $('.accordion-collapse').removeClass('show');
         };
     };
     $(window).resize(function () {
