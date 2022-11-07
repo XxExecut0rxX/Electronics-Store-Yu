@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tienda Electrónica Yu</title>
+        <title>Tienda Electrónica OVA</title>
 
         <!-- boostrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,14 +29,14 @@
                 <!-- navbar -->
                 <nav class="navbar navbar-expand-lg navbar-dark mb-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#title">YU Tienda Virtual</a>
+                        <a class="navbar-brand" href="#title">OVA Tienda Virtual</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-0 pe-lg-3">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#title">Home</a>
                                 </li>
@@ -46,13 +46,28 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#cards">Contacto</a>
                                 </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" href="#">Catalogo</a>
-                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html#Catalog">Catálogo</a>
+                                </li>
+                                <li>
+                                    
+                                </li>
                             </ul>
-                            <a href="#Catalog">
-                                <button type="button" class="btn btn-outline-dark catalog-btn ms-0 ms-lg-5"><i class="fa-sharp fa-solid fa-download"></i> Catálogo</button>
-                            </a>
+                            
+                            <div class="dropdown-center ms-0 ms-lg-5">
+                                <a type="button" class="btn btn-outline-light catalog-btn ms-0 ms-lg-2 dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span class="ps-2"> Mi Cuenta</span>
+                                </a>
+                                <ul class="dropdown-menu text-small shadow">
+                                    <li><a class="dropdown-item" href="cart_sopping.html">Carrito</a></li>
+                                    <li><a class="dropdown-item" href="account_customers.html">Perfil</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
