@@ -28,7 +28,7 @@
     
         <nav class="navbar navbar-expand-lg navbar-dark mb-3 py-3">
             <div class="container-fluid px-0">
-                <a class="navbar-brand" href="#title">OVA Tienda Virtual</a>
+                <a class="navbar-brand" href="../index.html">OVA Tienda Virtual</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -46,18 +46,29 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contacto</a>
                         </li>
-                        <!-- <li class="nav-item">
-                                    <a class="nav-link" href="#">Catalogo</a>
-                                </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#Catalog">Catálogo</a>
+                        </li>
                     </ul>
                     <a href="#Catalog">
-                        <button type="button" class="btn btn-outline-dark catalog-btn ms-0 ms-lg-5"><i
-                                class="fa-sharp fa-solid fa-download"></i> Catálogo</button>
+                        <div class="dropdown-center">
+                            <a type="button" class="btn btn-outline-light catalog-btn ms-0 ms-lg-2 dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="ps-2"> Mi Cuenta</span>
+                            </a>
+                            <ul class="dropdown-menu text-small shadow">
+                                <li><a class="dropdown-item" href="cart_sopping.html">Carrito</a></li>
+                                <li><a class="dropdown-item" href="account_customers.html">Perfil</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                            </ul>
+                        </div>
                     </a>
                 </div>
             </div>
         </nav>
-    </div>
     </div>
     
     <!-- heading section -->
@@ -83,7 +94,7 @@
                         </form>
                     </div>
                     <div class="col col-4 text-end">
-                        <a class="btn btn-primary" href="#" role="button"><i class="fa-solid fa-cart-shopping"></i>
+                        <a class="btn btn-primary" href="cart_sopping.html" role="button"><i class="fa-solid fa-cart-shopping"></i>
                             <span class="sopping-cart-text">Carrito</span></a>
                     </div>
                 </div>
