@@ -227,6 +227,12 @@ footer i:hover {
         color: white;
     }
 
+    /* navbar - dropdown */
+    
+    #dropdownEnter {
+        left: calc(--variable-width);
+    }
+
     /* Features section */
     
     .container-items {
